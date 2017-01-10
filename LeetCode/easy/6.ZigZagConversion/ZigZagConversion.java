@@ -5,8 +5,8 @@ public class ZigZagConversion{
 	 public static String convert(String s, int numRows) {
 	 	String []str = s.split("");
 	 	StringBuffer []sb = new StringBuffer[numRows];
-	 	for (int i = 0; i < sb.length; i++) sb[i] = new StringBuffer();
-	 	// StringBuffer sb = new StringBuffer();
+	 	for (int i = 0; i < sb.length; i++) 
+            sb[i] = new StringBuffer();
  		int i = 0;
         while(i<str.length){
         	for(int j=0;j<numRows&&i<str.length;j++)

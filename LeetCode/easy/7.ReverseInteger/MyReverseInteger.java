@@ -1,9 +1,5 @@
 public class MyReverseInteger{
-	public static void main(String []args){
-		int i = 2147483647;
-		System.out.println(reverse(i));
-	}
-    public static int reverse(int x) {
+    public int reverse(int x) {
     	int tmp = Math.abs(x);
         StringBuffer sb = new StringBuffer(tmp+"");
 			sb.reverse();

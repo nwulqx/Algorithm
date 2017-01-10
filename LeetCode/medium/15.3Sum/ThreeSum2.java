@@ -1,3 +1,5 @@
+/*the time complicity is O(lon2N+n)
+*/
 import java.util.*;
 
 public class ThreeSum2{

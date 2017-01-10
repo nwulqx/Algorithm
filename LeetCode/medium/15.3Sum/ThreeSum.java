@@ -1,4 +1,6 @@
-/*O(lon2N*n2)
+/*the time complicity is O(lon2N+n2)
+beacuse the array's sort cost log2N，there 
+is two for loops.
 */
 import java.util.*;
 public class ThreeSum{

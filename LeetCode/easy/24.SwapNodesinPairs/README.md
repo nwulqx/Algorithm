@@ -11,5 +11,5 @@ Your algorithm should use only constant space. You may not modify the values in 
 
 > 先明确链表元素交换，这样就好做了！
 
-![](http://i.imgur.com/gh6JcbI.png)
+![](http://i.imgur.com/Yxya3WY.png)
 
