@@ -12,6 +12,7 @@ class Solution {
                 nums[p] = 0;
                 ++p;
             }
+            // -- i 是回到当前 i 的位置，因为数已经置换过来，需判断一边置换来的是否为0.
             if (nums[i] == 2) {
                 nums[i] = nums[q];
                 nums[q] = 2;
